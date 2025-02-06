@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Specialized;
 using System.Collections;
+using Text_RPG.Object;
 
 namespace Text_RPG
 {
-    internal class Player
+    internal class Player : Battle_Unit
     {
         private static Player instance = new Player();
 
